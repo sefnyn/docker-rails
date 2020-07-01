@@ -30,3 +30,18 @@
 
 Gemfile
 Gemfile.lock
+
+#ignore rails app
+/app/*
+/bin/*
+config.ru
+/db/*
+/lib/*
+/log/*
+package.json
+/public/*
+Rakefile
+/storage/*
+/test/*
+/tmp/*
+/vendor/*
