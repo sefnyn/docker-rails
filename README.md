@@ -1,6 +1,6 @@
 # docker-rails
 
-These five files can be used to build a complete rails app running on port 8000.
+These five files (plus two config files) can be used to build a complete rails app running on port 8000.
 
 Instructions are based on those on the Docker web site.
 
