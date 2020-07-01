@@ -11,7 +11,7 @@ COPY . /myapp
 COPY entrypoint.sh /usr/bin/
 RUN chmod +x /usr/bin/entrypoint.sh
 ENTRYPOINT ["entrypoint.sh"]
-EXPOSE 3330
+EXPOSE 8000
 
 # Start the main process.
 CMD ["rails", "server", "-b", "0.0.0.0"]
