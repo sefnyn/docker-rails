@@ -47,3 +47,5 @@ Rakefile
 /test/*
 /tmp/*
 /vendor/*
+
+README.md
