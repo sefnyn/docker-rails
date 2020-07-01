@@ -5,7 +5,7 @@ These five files (plus two config files) can be used to build a complete rails a
 Instructions are based on those on the Docker web site.
 
 1. Install docker and docker compose.
-2. docker-compose run web rails new . --force --no-deps --database=postgresql
+2. docker-compose run web rails new . --force --no-deps --database=postgresql  [ignore warnings about yarn]
 3. ls command to inspect new files
 4. sudo chown -R $USER:$USER .
 5. docker-compose build
