@@ -32,8 +32,10 @@ Gemfile
 Gemfile.lock
 
 #ignore rails app
+.ruby-version
 /app/*
 /bin/*
+/config/*
 config.ru
 /db/*
 /lib/*
