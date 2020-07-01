@@ -11,6 +11,6 @@ Instructions are based on those on the Docker web site.
 5. docker-compose build
 6. cp database.yml config/database.yml
 7. cp webpacker.yml config/webpacker.yml  [**BUG FIX**] 
-8. docker-compose run web rake db:create
-9. docker-compose up
+8. docker-compose up
+9. In a new terminal enter: docker-compose run web rake db:create
 10. browse to localhost:8000
